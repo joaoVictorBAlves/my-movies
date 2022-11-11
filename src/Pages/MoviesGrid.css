@@ -1,12 +1,14 @@
 .container .title {
     color: #f2f2f2;
-    font-size: 2rem;
+    font-size: 1.8rem;
+    font-weight: 500;
     text-align: center;
     margin: 2rem 0 1rem;
 }
 
-.tilte .query-text {
+.query-text {
     color: #e72626;
+    font-weight: 500;
 }
 
 .movies-container {
@@ -21,6 +23,7 @@
 .movies-container div {
     width: 30%;
     color: #f2f2f2;
+    font-weight: 200;
     margin-bottom: 2.5rem;
     display: flex;
     flex-direction: column;
@@ -28,6 +31,10 @@
     background-color: #202140;
     padding: 1rem;
     border-radius: 4px;
+}
+
+.movies-container div h2 {
+    font-weight: 500;
 }
 
 .movies-container div img {
@@ -81,7 +88,7 @@
         font-size: large;
     }
 
-    .movies-container div a{
+    .movies-container div a {
         padding: 0.5rem;
     }
 
@@ -89,5 +96,12 @@
     .movies-container div p,
     .movies-container div h2 {
         margin-bottom: 0.5rem;
+    }
+}
+
+@media (max-width: 906px) {
+    .movies-container div {
+        width: 48%;
+        padding: 0.5rem;
     }
 }
