@@ -44,16 +44,15 @@
 }
 
 @media (max-width: 600px) {
-    .logo {
-        display: none;
-    }
-
     #navbar h2 a {
-        font-size: large;
+        text-indent: -20000px;
+        font-size: larger;
+        margin: 0 4rem 0 0.5rem;
     }
 
     #navbar form {
         height: 25px;
+        width: 90%;
         gap: 0.2rem;
     }
 }
