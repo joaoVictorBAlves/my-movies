@@ -1,4 +1,4 @@
-#navbar{
+#navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -7,24 +7,24 @@
     width: 100%;
 }
 
-#navbar h2 a{
+#navbar h2 a {
     display: flex;
     align-items: center;
     gap: .5rem;
 }
 
-#navbar form{
+#navbar form {
     display: flex;
     gap: .5rem;
 }
 
-#navbar input{
+#navbar input {
     padding: 0.2rem 0.8rem;
     border: none;
     border-radius: 4px;
 }
 
-#navbar form button{
+#navbar form button {
     background-color: #e72626;
     border: 2px solid #e72626;
     border-radius: 4px;
@@ -37,16 +37,23 @@
     transition: 0.4s;
 }
 
-#navbar form button:hover{
+#navbar form button:hover {
     background-color: #202140;
     border: 2px solid #e72626;
     color: #e72626;
 }
 
-@media (max-width: 600px)
-{
-  .logo{
-    display: none;
-  }
-}
+@media (max-width: 600px) {
+    .logo {
+        display: none;
+    }
 
+    #navbar h2 a {
+        font-size: large;
+    }
+
+    #navbar form {
+        height: 25px;
+        gap: 0.2rem;
+    }
+}

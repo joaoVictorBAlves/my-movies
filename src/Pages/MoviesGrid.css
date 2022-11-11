@@ -18,15 +18,29 @@
     margin: 0 auto;
 }
 
-.movies-container div{
+.movies-container div {
     width: 30%;
     color: #f2f2f2;
     margin-bottom: 2.5rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-between; 
+    justify-content: space-between;
 }
 
-.movies-container div img{
-   border-radius: 4px;
+.movies-container div img {
+    border-radius: 4px;
+}
+
+@media (max-width: 600px) {
+    .container .title {
+        font-size: 1.3rem;
+    }
+
+    .movies-container div {
+        width: 45%;
+    }
+
+    .movies-container div h2 {
+        font-size: large;
+    }
 }
