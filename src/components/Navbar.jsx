@@ -7,7 +7,7 @@ const Navbar = () => {
         <nav id="navbar">
             <h2>
                 <Link to='/'>
-                    <BiCameraMovie /> My Movies 
+                    <BiCameraMovie className="logo"/> My Movies 
                 </Link>
             </h2>
             <form>

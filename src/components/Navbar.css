@@ -42,3 +42,11 @@
     border: 2px solid #e72626;
     color: #e72626;
 }
+
+@media (max-width: 600px)
+{
+  .logo{
+    display: none;
+  }
+}
+
