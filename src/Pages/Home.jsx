@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import MovieCard from "../components/MovieCard";
+import "./MoviesGrid.css"
 
 // get the API access data
 const moviesURL = import.meta.env.VITE_API;
@@ -20,10 +21,8 @@ const Home = () => {
 
     // Whenever the page reloads execute this block
     useEffect(() => {
-        setInterval(() => {
-            const topRatedUrl = `${moviesURL}top_rated?${apiKey}`;
-            getTopRatedMovies(topRatedUrl);
-        }, 1000);
+        const topRatedUrl = `${moviesURL}top_rated?${apiKey}`;
+        getTopRatedMovies(topRatedUrl);
     }, []);
 
     // Return some JSX with the Page Component
