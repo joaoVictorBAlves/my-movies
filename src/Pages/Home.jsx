@@ -17,7 +17,7 @@ const Home = () => {
         // Convert data in JSON
         const data = await res.json();
         setTopMovies(data.results);
-    }
+    } 
 
     // Whenever the page reloads execute this block
     useEffect(() => {
